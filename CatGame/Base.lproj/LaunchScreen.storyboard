@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cv5-jK-EtT">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="V7c-Z8-bkI">
+            <objects>
+                <viewController id="Cv5-jK-EtT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G7o-fk-zX9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_cat" translatesAutoresizingMaskIntoConstraints="NO" id="PGo-W0-BCD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="PGo-W0-BCD" firstAttribute="top" secondItem="G7o-fk-zX9" secondAttribute="top" id="6U6-GU-3Bi"/>
+                            <constraint firstItem="DgP-BE-vS7" firstAttribute="trailing" secondItem="PGo-W0-BCD" secondAttribute="trailing" id="Cq5-gl-7QM"/>
+                            <constraint firstItem="PGo-W0-BCD" firstAttribute="leading" secondItem="DgP-BE-vS7" secondAttribute="leading" id="QH5-Ld-Wdh"/>
+                            <constraint firstAttribute="bottom" secondItem="PGo-W0-BCD" secondAttribute="bottom" id="oLZ-ob-8va"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DgP-BE-vS7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ko4-do-eEL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg_cat" width="658" height="407"/>
+    </resources>
+</document>

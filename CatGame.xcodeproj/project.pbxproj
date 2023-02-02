@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47FBA0FE536490217F423945 /* Pods_CatGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7016EB7E4AC879DC1CEB45 /* Pods_CatGame.framework */; };
+		63F1BDDC6742D2F5C67BFCA7 /* Pods_Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C3FC3A5203763B3D8CBCA7 /* Pods_Service.framework */; };
+		FE0DAD4B240E302D00A9D7F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0DAD4A240E302D00A9D7F6 /* AppDelegate.swift */; };
+		FE0DAD4F240E302D00A9D7F6 /* SameFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0DAD4E240E302D00A9D7F6 /* SameFirstViewController.swift */; };
+		FE0DAD52240E302D00A9D7F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0DAD50240E302D00A9D7F6 /* Main.storyboard */; };
+		FE0DAD54240E302F00A9D7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0DAD53240E302F00A9D7F6 /* Assets.xcassets */; };
+		FE0DAD57240E302F00A9D7F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0DAD55240E302F00A9D7F6 /* LaunchScreen.storyboard */; };
+		FE38C853242DEA2200EBB185 /* SameThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE38C852242DEA2200EBB185 /* SameThirdViewController.swift */; };
+		FE38C855242DEA9E00EBB185 /* WhackFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE38C854242DEA9E00EBB185 /* WhackFirstViewController.swift */; };
+		FE38C857242DF38D00EBB185 /* Title.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE38C856242DF38D00EBB185 /* Title.mp3 */; };
+		FE5A331D242C8F1500A05B6A /* Henesys3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE5A3317242C8F1500A05B6A /* Henesys3.mp3 */; };
+		FE5A331E242C8F1500A05B6A /* mEnd.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE5A3318242C8F1500A05B6A /* mEnd.mp3 */; };
+		FE5A331F242C8F1500A05B6A /* mError.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE5A3319242C8F1500A05B6A /* mError.mp3 */; };
+		FE5A3321242C8F1500A05B6A /* KerningSquare1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE5A331B242C8F1500A05B6A /* KerningSquare1.mp3 */; };
+		FE5A3322242C8F1500A05B6A /* mStart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE5A331C242C8F1500A05B6A /* mStart.mp3 */; };
+		FE5A3328242C8F2900A05B6A /* ScoreRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE5A3323242C8F2900A05B6A /* ScoreRecordTableViewCell.xib */; };
+		FE5A3329242C8F2900A05B6A /* ShowCompleteToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A3324242C8F2900A05B6A /* ShowCompleteToastView.swift */; };
+		FE5A332A242C8F2900A05B6A /* WhackSecendViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A3325242C8F2900A05B6A /* WhackSecendViews.swift */; };
+		FE5A332B242C8F2900A05B6A /* ScoreRecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A3326242C8F2900A05B6A /* ScoreRecordTableViewCell.swift */; };
+		FE5A332C242C8F2900A05B6A /* ShowCompleteToastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE5A3327242C8F2900A05B6A /* ShowCompleteToastView.xib */; };
+		FE5A3330242C8F3500A05B6A /* MenuGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A332D242C8F3400A05B6A /* MenuGoViewController.swift */; };
+		FE5A3331242C8F3500A05B6A /* WhackThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A332E242C8F3500A05B6A /* WhackThirdViewController.swift */; };
+		FE5A3332242C8F3500A05B6A /* WhackSecendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A332F242C8F3500A05B6A /* WhackSecendViewController.swift */; };
+		FE8BFE1826E5D670004B2F13 /* FireBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8BFE1726E5D670004B2F13 /* FireBaseManager.swift */; };
+		FE8FE372240E3D8600E5CF1D /* SameSecendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8FE371240E3D8600E5CF1D /* SameSecendViewController.swift */; };
+		FE8FE374240E3DC300E5CF1D /* SameSecendViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8FE373240E3DC300E5CF1D /* SameSecendViews.swift */; };
+		FE8FE379240E405600E5CF1D /* Ellinia1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE8FE377240E405600E5CF1D /* Ellinia1.mp3 */; };
+		FE8FE37B240E4E3B00E5CF1D /* mHit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE8FE37A240E4E3B00E5CF1D /* mHit.mp3 */; };
+		FEB4ABA026E1CA8000D0347D /* MenuGoWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4AB9F26E1CA8000D0347D /* MenuGoWebViewController.swift */; };
+		FEB4ABA926E200F000D0347D /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4ABA826E200F000D0347D /* NotificationService.swift */; };
+		FEB4ABAD26E200F000D0347D /* Service.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FEB4ABA626E200F000D0347D /* Service.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FEB8005726E872A300303C1F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEB8005626E872A300303C1F /* GoogleService-Info.plist */; };
+		FEB8007C26EB528000303C1F /* LithHarbor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8007B26EB527F00303C1F /* LithHarbor.mp3 */; };
+		FEB8007E26EB528B00303C1F /* KerningCity1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8007D26EB528B00303C1F /* KerningCity1.mp3 */; };
+		FEB8008026EB529500303C1F /* Ludibrium1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8007F26EB529400303C1F /* Ludibrium1.mp3 */; };
+		FEB8008226EB529C00303C1F /* KerningCity2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8008126EB529C00303C1F /* KerningCity2.mp3 */; };
+		FEB8008826EB52B900303C1F /* Ludibrium2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8008726EB52B900303C1F /* Ludibrium2.mp3 */; };
+		FEB8008A26EB52C100303C1F /* KerningSquare2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8008926EB52C100303C1F /* KerningSquare2.mp3 */; };
+		FEB8008C26EB52C800303C1F /* Orbis1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8008B26EB52C800303C1F /* Orbis1.mp3 */; };
+		FEB8008E26EB52EB00303C1F /* ShiningSea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8008D26EB52EB00303C1F /* ShiningSea.mp3 */; };
+		FEB8009026EB52F100303C1F /* Henesys1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8008F26EB52F100303C1F /* Henesys1.mp3 */; };
+		FEB8009226EB531800303C1F /* Ludibrium3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8009126EB531800303C1F /* Ludibrium3.mp3 */; };
+		FEB8009526EB533400303C1F /* ElNath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8009326EB533400303C1F /* ElNath.mp3 */; };
+		FEB8009626EB533400303C1F /* Ludibrium4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8009426EB533400303C1F /* Ludibrium4.mp3 */; };
+		FEB8009826EB535600303C1F /* Orbis2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8009726EB535600303C1F /* Orbis2.mp3 */; };
+		FEB8009A26EB539F00303C1F /* Ellinia3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8009926EB539F00303C1F /* Ellinia3.mp3 */; };
+		FEB8009C26EB53B300303C1F /* Ellinia2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8009B26EB53B300303C1F /* Ellinia2.mp3 */; };
+		FEB8009E26EB53D200303C1F /* Henesys2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8009D26EB53D200303C1F /* Henesys2.mp3 */; };
+		FEB800A026EB53F000303C1F /* Shop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEB8009F26EB53F000303C1F /* Shop.mp3 */; };
+		FEB800A626EB5DAF00303C1F /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB800A526EB5DAF00303C1F /* SetupView.swift */; };
+		FEB800A826EB5DC400303C1F /* SetupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB800A726EB5DC400303C1F /* SetupView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEB4ABAB26E200F000D0347D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0DAD3F240E302D00A9D7F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEB4ABA526E200F000D0347D;
+			remoteInfo = Service;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FEB4ABB126E200F000D0347D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FEB4ABAD26E200F000D0347D /* Service.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		62EE9EF567D59B3EAE834E5F /* Pods-CatGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatGame.release.xcconfig"; path = "Target Support Files/Pods-CatGame/Pods-CatGame.release.xcconfig"; sourceTree = "<group>"; };
+		6F9B8C87A29B666746C7D561 /* Pods-Service.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Service.release.xcconfig"; path = "Target Support Files/Pods-Service/Pods-Service.release.xcconfig"; sourceTree = "<group>"; };
+		8074182D23ED26F691E9EC68 /* Pods-CatGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatGame.debug.xcconfig"; path = "Target Support Files/Pods-CatGame/Pods-CatGame.debug.xcconfig"; sourceTree = "<group>"; };
+		9D6D629BAAC53F64E2E04FA5 /* Pods-Service.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Service.debug.xcconfig"; path = "Target Support Files/Pods-Service/Pods-Service.debug.xcconfig"; sourceTree = "<group>"; };
+		9E7016EB7E4AC879DC1CEB45 /* Pods_CatGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C3FC3A5203763B3D8CBCA7 /* Pods_Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0DAD47240E302D00A9D7F6 /* CatGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0DAD4A240E302D00A9D7F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE0DAD4E240E302D00A9D7F6 /* SameFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameFirstViewController.swift; sourceTree = "<group>"; };
+		FE0DAD51240E302D00A9D7F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE0DAD53240E302F00A9D7F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE0DAD56240E302F00A9D7F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE0DAD58240E302F00A9D7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE38C852242DEA2200EBB185 /* SameThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameThirdViewController.swift; sourceTree = "<group>"; };
+		FE38C854242DEA9E00EBB185 /* WhackFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackFirstViewController.swift; sourceTree = "<group>"; };
+		FE38C856242DF38D00EBB185 /* Title.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Title.mp3; sourceTree = "<group>"; };
+		FE5A3317242C8F1500A05B6A /* Henesys3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Henesys3.mp3; sourceTree = "<group>"; };
+		FE5A3318242C8F1500A05B6A /* mEnd.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mEnd.mp3; sourceTree = "<group>"; };
+		FE5A3319242C8F1500A05B6A /* mError.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mError.mp3; sourceTree = "<group>"; };
+		FE5A331B242C8F1500A05B6A /* KerningSquare1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KerningSquare1.mp3; sourceTree = "<group>"; };
+		FE5A331C242C8F1500A05B6A /* mStart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mStart.mp3; sourceTree = "<group>"; };
+		FE5A3323242C8F2900A05B6A /* ScoreRecordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScoreRecordTableViewCell.xib; sourceTree = "<group>"; };
+		FE5A3324242C8F2900A05B6A /* ShowCompleteToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowCompleteToastView.swift; sourceTree = "<group>"; };
+		FE5A3325242C8F2900A05B6A /* WhackSecendViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhackSecendViews.swift; sourceTree = "<group>"; };
+		FE5A3326242C8F2900A05B6A /* ScoreRecordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreRecordTableViewCell.swift; sourceTree = "<group>"; };
+		FE5A3327242C8F2900A05B6A /* ShowCompleteToastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowCompleteToastView.xib; sourceTree = "<group>"; };
+		FE5A332D242C8F3400A05B6A /* MenuGoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuGoViewController.swift; sourceTree = "<group>"; };
+		FE5A332E242C8F3500A05B6A /* WhackThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhackThirdViewController.swift; sourceTree = "<group>"; };
+		FE5A332F242C8F3500A05B6A /* WhackSecendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhackSecendViewController.swift; sourceTree = "<group>"; };
+		FE8BFE1726E5D670004B2F13 /* FireBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireBaseManager.swift; sourceTree = "<group>"; };
+		FE8FE371240E3D8600E5CF1D /* SameSecendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameSecendViewController.swift; sourceTree = "<group>"; };
+		FE8FE373240E3DC300E5CF1D /* SameSecendViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameSecendViews.swift; sourceTree = "<group>"; };
+		FE8FE377240E405600E5CF1D /* Ellinia1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ellinia1.mp3; sourceTree = "<group>"; };
+		FE8FE37A240E4E3B00E5CF1D /* mHit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mHit.mp3; sourceTree = "<group>"; };
+		FEB4AB9F26E1CA8000D0347D /* MenuGoWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuGoWebViewController.swift; sourceTree = "<group>"; };
+		FEB4ABA626E200F000D0347D /* Service.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Service.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB4ABA826E200F000D0347D /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		FEB4ABAA26E200F000D0347D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB8005626E872A300303C1F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FEB8005A26E89C9600303C1F /* CatGame.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = CatGame.entitlements; sourceTree = "<group>"; };
+		FEB8007B26EB527F00303C1F /* LithHarbor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LithHarbor.mp3; sourceTree = "<group>"; };
+		FEB8007D26EB528B00303C1F /* KerningCity1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KerningCity1.mp3; sourceTree = "<group>"; };
+		FEB8007F26EB529400303C1F /* Ludibrium1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ludibrium1.mp3; sourceTree = "<group>"; };
+		FEB8008126EB529C00303C1F /* KerningCity2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KerningCity2.mp3; sourceTree = "<group>"; };
+		FEB8008726EB52B900303C1F /* Ludibrium2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ludibrium2.mp3; sourceTree = "<group>"; };
+		FEB8008926EB52C100303C1F /* KerningSquare2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KerningSquare2.mp3; sourceTree = "<group>"; };
+		FEB8008B26EB52C800303C1F /* Orbis1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Orbis1.mp3; sourceTree = "<group>"; };
+		FEB8008D26EB52EB00303C1F /* ShiningSea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ShiningSea.mp3; sourceTree = "<group>"; };
+		FEB8008F26EB52F100303C1F /* Henesys1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Henesys1.mp3; sourceTree = "<group>"; };
+		FEB8009126EB531800303C1F /* Ludibrium3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ludibrium3.mp3; sourceTree = "<group>"; };
+		FEB8009326EB533400303C1F /* ElNath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ElNath.mp3; sourceTree = "<group>"; };
+		FEB8009426EB533400303C1F /* Ludibrium4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ludibrium4.mp3; sourceTree = "<group>"; };
+		FEB8009726EB535600303C1F /* Orbis2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Orbis2.mp3; sourceTree = "<group>"; };
+		FEB8009926EB539F00303C1F /* Ellinia3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ellinia3.mp3; sourceTree = "<group>"; };
+		FEB8009B26EB53B300303C1F /* Ellinia2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ellinia2.mp3; sourceTree = "<group>"; };
+		FEB8009D26EB53D200303C1F /* Henesys2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Henesys2.mp3; sourceTree = "<group>"; };
+		FEB8009F26EB53F000303C1F /* Shop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Shop.mp3; sourceTree = "<group>"; };
+		FEB800A526EB5DAF00303C1F /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		FEB800A726EB5DC400303C1F /* SetupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetupView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE0DAD44240E302D00A9D7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FBA0FE536490217F423945 /* Pods_CatGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB4ABA326E200F000D0347D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F1BDDC6742D2F5C67BFCA7 /* Pods_Service.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AA7971988653EF8C74B719F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E7016EB7E4AC879DC1CEB45 /* Pods_CatGame.framework */,
+				A9C3FC3A5203763B3D8CBCA7 /* Pods_Service.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B09111CF56735377D24D0544 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8074182D23ED26F691E9EC68 /* Pods-CatGame.debug.xcconfig */,
+				62EE9EF567D59B3EAE834E5F /* Pods-CatGame.release.xcconfig */,
+				9D6D629BAAC53F64E2E04FA5 /* Pods-Service.debug.xcconfig */,
+				6F9B8C87A29B666746C7D561 /* Pods-Service.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE0DAD3E240E302D00A9D7F6 = {
+			isa = PBXGroup;
+			children = (
+				FE0DAD49240E302D00A9D7F6 /* CatGame */,
+				FEB4ABA726E200F000D0347D /* Service */,
+				FE0DAD48240E302D00A9D7F6 /* Products */,
+				B09111CF56735377D24D0544 /* Pods */,
+				2AA7971988653EF8C74B719F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE0DAD48240E302D00A9D7F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE0DAD47240E302D00A9D7F6 /* CatGame.app */,
+				FEB4ABA626E200F000D0347D /* Service.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE0DAD49240E302D00A9D7F6 /* CatGame */ = {
+			isa = PBXGroup;
+			children = (
+				FEB8005A26E89C9600303C1F /* CatGame.entitlements */,
+				FE8FE375240E401A00E5CF1D /* Model */,
+				FE8FE370240E3D6200E5CF1D /* View */,
+				FE8FE36F240E3D5000E5CF1D /* Controller */,
+				FE0DAD4A240E302D00A9D7F6 /* AppDelegate.swift */,
+				FE8BFE1726E5D670004B2F13 /* FireBaseManager.swift */,
+				FEB8005626E872A300303C1F /* GoogleService-Info.plist */,
+				FE0DAD50240E302D00A9D7F6 /* Main.storyboard */,
+				FE0DAD53240E302F00A9D7F6 /* Assets.xcassets */,
+				FE0DAD55240E302F00A9D7F6 /* LaunchScreen.storyboard */,
+				FE0DAD58240E302F00A9D7F6 /* Info.plist */,
+			);
+			path = CatGame;
+			sourceTree = "<group>";
+		};
+		FE8FE36F240E3D5000E5CF1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE5A332D242C8F3400A05B6A /* MenuGoViewController.swift */,
+				FE38C854242DEA9E00EBB185 /* WhackFirstViewController.swift */,
+				FE5A332F242C8F3500A05B6A /* WhackSecendViewController.swift */,
+				FE5A332E242C8F3500A05B6A /* WhackThirdViewController.swift */,
+				FE0DAD4E240E302D00A9D7F6 /* SameFirstViewController.swift */,
+				FE8FE371240E3D8600E5CF1D /* SameSecendViewController.swift */,
+				FE38C852242DEA2200EBB185 /* SameThirdViewController.swift */,
+				FEB4AB9F26E1CA8000D0347D /* MenuGoWebViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE8FE370240E3D6200E5CF1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE8FE373240E3DC300E5CF1D /* SameSecendViews.swift */,
+				FE5A3325242C8F2900A05B6A /* WhackSecendViews.swift */,
+				FE5A3326242C8F2900A05B6A /* ScoreRecordTableViewCell.swift */,
+				FE5A3323242C8F2900A05B6A /* ScoreRecordTableViewCell.xib */,
+				FE5A3324242C8F2900A05B6A /* ShowCompleteToastView.swift */,
+				FE5A3327242C8F2900A05B6A /* ShowCompleteToastView.xib */,
+				FEB800A526EB5DAF00303C1F /* SetupView.swift */,
+				FEB800A726EB5DC400303C1F /* SetupView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE8FE375240E401A00E5CF1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE38C856242DF38D00EBB185 /* Title.mp3 */,
+				FE8FE377240E405600E5CF1D /* Ellinia1.mp3 */,
+				FEB8009B26EB53B300303C1F /* Ellinia2.mp3 */,
+				FEB8009926EB539F00303C1F /* Ellinia3.mp3 */,
+				FEB8007B26EB527F00303C1F /* LithHarbor.mp3 */,
+				FEB8007D26EB528B00303C1F /* KerningCity1.mp3 */,
+				FEB8008126EB529C00303C1F /* KerningCity2.mp3 */,
+				FE5A331B242C8F1500A05B6A /* KerningSquare1.mp3 */,
+				FEB8008926EB52C100303C1F /* KerningSquare2.mp3 */,
+				FEB8007F26EB529400303C1F /* Ludibrium1.mp3 */,
+				FEB8008726EB52B900303C1F /* Ludibrium2.mp3 */,
+				FEB8009126EB531800303C1F /* Ludibrium3.mp3 */,
+				FEB8009426EB533400303C1F /* Ludibrium4.mp3 */,
+				FEB8008B26EB52C800303C1F /* Orbis1.mp3 */,
+				FEB8009726EB535600303C1F /* Orbis2.mp3 */,
+				FEB8008D26EB52EB00303C1F /* ShiningSea.mp3 */,
+				FEB8008F26EB52F100303C1F /* Henesys1.mp3 */,
+				FEB8009D26EB53D200303C1F /* Henesys2.mp3 */,
+				FE5A3317242C8F1500A05B6A /* Henesys3.mp3 */,
+				FEB8009326EB533400303C1F /* ElNath.mp3 */,
+				FEB8009F26EB53F000303C1F /* Shop.mp3 */,
+				FE8FE37A240E4E3B00E5CF1D /* mHit.mp3 */,
+				FE5A331C242C8F1500A05B6A /* mStart.mp3 */,
+				FE5A3318242C8F1500A05B6A /* mEnd.mp3 */,
+				FE5A3319242C8F1500A05B6A /* mError.mp3 */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FEB4ABA726E200F000D0347D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FEB4ABA826E200F000D0347D /* NotificationService.swift */,
+				FEB4ABAA26E200F000D0347D /* Info.plist */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE0DAD46240E302D00A9D7F6 /* CatGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0DAD5B240E302F00A9D7F6 /* Build configuration list for PBXNativeTarget "CatGame" */;
+			buildPhases = (
+				7829901A9C94AF62805009CA /* [CP] Check Pods Manifest.lock */,
+				FE0DAD43240E302D00A9D7F6 /* Sources */,
+				FE0DAD44240E302D00A9D7F6 /* Frameworks */,
+				FE0DAD45240E302D00A9D7F6 /* Resources */,
+				78E9EF5F5B3769B06C10E488 /* [CP] Embed Pods Frameworks */,
+				FEB4ABB126E200F000D0347D /* Embed App Extensions */,
+				FE8BFE1926E5E826004B2F13 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEB4ABAC26E200F000D0347D /* PBXTargetDependency */,
+			);
+			name = CatGame;
+			productName = SameCard;
+			productReference = FE0DAD47240E302D00A9D7F6 /* CatGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEB4ABA526E200F000D0347D /* Service */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB4ABAE26E200F000D0347D /* Build configuration list for PBXNativeTarget "Service" */;
+			buildPhases = (
+				76AE3FDD112EBEDB89DBA2B3 /* [CP] Check Pods Manifest.lock */,
+				FEB4ABA226E200F000D0347D /* Sources */,
+				FEB4ABA326E200F000D0347D /* Frameworks */,
+				FEB4ABA426E200F000D0347D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Service;
+			productName = Service;
+			productReference = FEB4ABA626E200F000D0347D /* Service.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE0DAD3F240E302D00A9D7F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					FE0DAD46240E302D00A9D7F6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FEB4ABA526E200F000D0347D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = FE0DAD42240E302D00A9D7F6 /* Build configuration list for PBXProject "CatGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE0DAD3E240E302D00A9D7F6;
+			productRefGroup = FE0DAD48240E302D00A9D7F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE0DAD46240E302D00A9D7F6 /* CatGame */,
+				FEB4ABA526E200F000D0347D /* Service */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE0DAD45240E302D00A9D7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0DAD57240E302F00A9D7F6 /* LaunchScreen.storyboard in Resources */,
+				FEB8009826EB535600303C1F /* Orbis2.mp3 in Resources */,
+				FE5A331E242C8F1500A05B6A /* mEnd.mp3 in Resources */,
+				FEB8007E26EB528B00303C1F /* KerningCity1.mp3 in Resources */,
+				FEB8007C26EB528000303C1F /* LithHarbor.mp3 in Resources */,
+				FEB8008E26EB52EB00303C1F /* ShiningSea.mp3 in Resources */,
+				FEB8009E26EB53D200303C1F /* Henesys2.mp3 in Resources */,
+				FEB8005726E872A300303C1F /* GoogleService-Info.plist in Resources */,
+				FEB8008026EB529500303C1F /* Ludibrium1.mp3 in Resources */,
+				FE0DAD54240E302F00A9D7F6 /* Assets.xcassets in Resources */,
+				FE8FE37B240E4E3B00E5CF1D /* mHit.mp3 in Resources */,
+				FEB8008A26EB52C100303C1F /* KerningSquare2.mp3 in Resources */,
+				FE5A3322242C8F1500A05B6A /* mStart.mp3 in Resources */,
+				FEB8009A26EB539F00303C1F /* Ellinia3.mp3 in Resources */,
+				FEB8008226EB529C00303C1F /* KerningCity2.mp3 in Resources */,
+				FEB8008C26EB52C800303C1F /* Orbis1.mp3 in Resources */,
+				FEB8008826EB52B900303C1F /* Ludibrium2.mp3 in Resources */,
+				FEB800A826EB5DC400303C1F /* SetupView.xib in Resources */,
+				FE5A3321242C8F1500A05B6A /* KerningSquare1.mp3 in Resources */,
+				FEB8009526EB533400303C1F /* ElNath.mp3 in Resources */,
+				FEB8009026EB52F100303C1F /* Henesys1.mp3 in Resources */,
+				FE5A3328242C8F2900A05B6A /* ScoreRecordTableViewCell.xib in Resources */,
+				FE5A331D242C8F1500A05B6A /* Henesys3.mp3 in Resources */,
+				FE5A331F242C8F1500A05B6A /* mError.mp3 in Resources */,
+				FEB8009226EB531800303C1F /* Ludibrium3.mp3 in Resources */,
+				FEB8009C26EB53B300303C1F /* Ellinia2.mp3 in Resources */,
+				FEB800A026EB53F000303C1F /* Shop.mp3 in Resources */,
+				FE5A332C242C8F2900A05B6A /* ShowCompleteToastView.xib in Resources */,
+				FEB8009626EB533400303C1F /* Ludibrium4.mp3 in Resources */,
+				FE8FE379240E405600E5CF1D /* Ellinia1.mp3 in Resources */,
+				FE38C857242DF38D00EBB185 /* Title.mp3 in Resources */,
+				FE0DAD52240E302D00A9D7F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB4ABA426E200F000D0347D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76AE3FDD112EBEDB89DBA2B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Service-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7829901A9C94AF62805009CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78E9EF5F5B3769B06C10E488 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatGame/Pods-CatGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatGame/Pods-CatGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatGame/Pods-CatGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE8BFE1926E5E826004B2F13 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE0DAD43240E302D00A9D7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0DAD4F240E302D00A9D7F6 /* SameFirstViewController.swift in Sources */,
+				FEB4ABA026E1CA8000D0347D /* MenuGoWebViewController.swift in Sources */,
+				FE5A3331242C8F3500A05B6A /* WhackThirdViewController.swift in Sources */,
+				FE38C855242DEA9E00EBB185 /* WhackFirstViewController.swift in Sources */,
+				FE5A332B242C8F2900A05B6A /* ScoreRecordTableViewCell.swift in Sources */,
+				FE5A3332242C8F3500A05B6A /* WhackSecendViewController.swift in Sources */,
+				FEB800A626EB5DAF00303C1F /* SetupView.swift in Sources */,
+				FE5A332A242C8F2900A05B6A /* WhackSecendViews.swift in Sources */,
+				FE5A3330242C8F3500A05B6A /* MenuGoViewController.swift in Sources */,
+				FE38C853242DEA2200EBB185 /* SameThirdViewController.swift in Sources */,
+				FE0DAD4B240E302D00A9D7F6 /* AppDelegate.swift in Sources */,
+				FE8FE374240E3DC300E5CF1D /* SameSecendViews.swift in Sources */,
+				FE8FE372240E3D8600E5CF1D /* SameSecendViewController.swift in Sources */,
+				FE5A3329242C8F2900A05B6A /* ShowCompleteToastView.swift in Sources */,
+				FE8BFE1826E5D670004B2F13 /* FireBaseManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB4ABA226E200F000D0347D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB4ABA926E200F000D0347D /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEB4ABAC26E200F000D0347D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEB4ABA526E200F000D0347D /* Service */;
+			targetProxy = FEB4ABAB26E200F000D0347D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE0DAD50240E302D00A9D7F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0DAD51240E302D00A9D7F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE0DAD55240E302F00A9D7F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0DAD56240E302F00A9D7F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE0DAD59240E302F00A9D7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE0DAD5A240E302F00A9D7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE0DAD5C240E302F00A9D7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8074182D23ED26F691E9EC68 /* Pods-CatGame.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CatGame/CatGame.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5FX55BKFBW;
+				INFOPLIST_FILE = CatGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doa.catgame;
+				PRODUCT_NAME = CatGame;
+				PROVISIONING_PROFILE_SPECIFIER = catgame_dev;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FE0DAD5D240E302F00A9D7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62EE9EF567D59B3EAE834E5F /* Pods-CatGame.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CatGame/CatGame.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FX55BKFBW;
+				INFOPLIST_FILE = CatGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doa.catgame;
+				PRODUCT_NAME = CatGame;
+				PROVISIONING_PROFILE_SPECIFIER = catgame_store;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FEB4ABAF26E200F000D0347D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D6D629BAAC53F64E2E04FA5 /* Pods-Service.debug.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FX55BKFBW;
+				INFOPLIST_FILE = Service/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doa.catgame.Services;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = service_dev;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FEB4ABB026E200F000D0347D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F9B8C87A29B666746C7D561 /* Pods-Service.release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FX55BKFBW;
+				INFOPLIST_FILE = Service/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doa.catgame.Services;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = service_store;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE0DAD42240E302D00A9D7F6 /* Build configuration list for PBXProject "CatGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0DAD59240E302F00A9D7F6 /* Debug */,
+				FE0DAD5A240E302F00A9D7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0DAD5B240E302F00A9D7F6 /* Build configuration list for PBXNativeTarget "CatGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0DAD5C240E302F00A9D7F6 /* Debug */,
+				FE0DAD5D240E302F00A9D7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB4ABAE26E200F000D0347D /* Build configuration list for PBXNativeTarget "Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB4ABAF26E200F000D0347D /* Debug */,
+				FEB4ABB026E200F000D0347D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE0DAD3F240E302D00A9D7F6 /* Project object */;
+}
